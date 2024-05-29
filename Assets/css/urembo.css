@@ -1,0 +1,42 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    padding: 30px;
+    color: #093aea;
+    display: block;
+    text-decoration: none;
+    font-family: "Fira Code Medium";
+}
+h2{
+    color: rebeccapurple;
+    text-align: center;
+}
+p{
+    color: rebeccapurple;
+    font-family: AnjaliOldLipi;
+   font-size: 15px;
+}
+body{
+    background-image: url("/Assets/Images/icon.png");
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-position: center;
+    backface-visibility: inherit;
+}
+th, td{
+    border: 1px solid rebeccapurple;
+    padding: 20px;
+    font-family: cursive;
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+}
